@@ -1,4 +1,6 @@
 # Metadata-Extraction-using-ExifTool-log2timeline-and-Hidden-Data-Search-using-Steganography-Tools
+### NAME : G LEKASRI
+### REGISTER NUMBER : 212223100025
 ## AIM:
 To extract metadata, perform timeline analysis, and search for hidden data using forensic tools like ExifTool, log2timeline, and steganography detection tools.
 
@@ -50,13 +52,14 @@ sudo apt install steghide -y
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
-![image](https://github.com/user-attachments/assets/47166c87-4abe-4226-9529-141f1f602ec9)
+![screenshot 2](https://github.com/user-attachments/assets/50b65e90-c8eb-44d9-9020-0934f1199fa6)
+
 
 Extract hidden data:
 ```
 steghide extract -sf hidden.jpg
 ```
-![image](https://github.com/user-attachments/assets/f7d8e853-d26b-4226-93f2-ccd5d73b9de3)
+![screenshot 3](https://github.com/user-attachments/assets/336fe9c0-7971-4bad-8a86-262408070d09)
 
 # Using binwalk – for file analysis
 
